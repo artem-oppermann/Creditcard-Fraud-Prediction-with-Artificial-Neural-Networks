@@ -8,10 +8,8 @@ A network with only one hidden layer consisting of 200 neurons, sigmoid as activ
 
 
     epoch nr. 1, training on batch 14239/14239, val_acc: 0.9993820
-                              .
-
-                              .
-
+                               .
+                               .
                                .
     epoch nr. 50, training on batch 14239/14239, val_acc: 0.9995646
 
