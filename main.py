@@ -25,11 +25,11 @@ def main():
     
     model=Model(batch_size=10,                  # size of the training batch  
                 epochs=50,                      # number of training epochs  
-                nodes=[29, 200, 2],             # array of nodes in the neural network, first entry is 
-                                                # the number of input, last entry the number of output nodes                      
+                nodes=[29, 200, 2],             # List of neurons, first entry is the number of input, last entry 
+                                                # the number of output neurons. The values in between are the hidden neurons.                      
                 learning_rate=0.0001,           # learning rate for the training
-                hidden_activation="sigmoid",    # activation function for the hidden nodes
-                output_activation="linear",     # activation function for the output nodes
+                hidden_activation="sigmoid",    # activation function for the hidden nodes, choose between "tanh", "sigmoid" and "relu"
+                output_activation="linear",     # activation function for the output nodes, choose between "tanh", "sigmoid" and "linear" 
                 data=data,                      # the loaded and preprocessed data form the csv file
                 do_eval=True                    # measure accuracy of the evaluation set?
                 ) 
