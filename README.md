@@ -6,7 +6,7 @@ The neural network is not static. The number of hidden layers, the number of neu
 A network with only one hidden layer consisting of 200 neurons, sigmoid as activation function for hidden neurons and linear fuction as activation for the output achieves after 50 epochs an accuracy of 99,96% on the validation set.
 
 
-The final performance measurement on the test set yields provides the following confusion matrix:
+The final performance measurement on the test set provides the following confusion matrix:
 
 [[71065     7]
 
