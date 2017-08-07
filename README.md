@@ -1,7 +1,7 @@
 # Creditcard-Fraud-Prediction-with-Artificial-Neural-Networks
 An artifical neural network that can identify creditcard fraud. The network is trained on the dataset that contains transactions made by credit cards in September 2013 by european cardholders. This dataset presents transactions that occurred in two days, where there are 492 frauds out of 284,807 transactions. The dataset can be found at https://www.kaggle.com/dalpozz/creditcardfraud.
 
-The neural network is not static. The number of hidden layers, the number of neurons and the activation functions for hidden and output neurons can be changed any time. For the hidden neurons the user can choose between sigmoid, relu and tanh, for the output neurons between sigmoid, relu, tanh and linear.
+The neural network is not static. The number of hidden layers, the number of neurons and the activation functions for hidden and output neurons can be changed any time. For the hidden neurons the user can choose between sigmoid, relu and tanh, for the output neurons between sigmoid, relu, tanh and linear function as activation.
 A network with only one hidden layer consisting of 200 neurons, sigmoid as activation function for hidden neurons and linear as fuction for the output the network achieves after 50 epochs an accuracy of 99,96% on the validation set.
 
 
