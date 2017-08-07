@@ -3,8 +3,11 @@ An artifical neural network that can identify creditcard fraud. The network is t
 
 
 epoch nr. 1, training on batch 14239/14239, val_acc: 0.9993820
+
 epoch nr. 2, training on batch 14239/14239, val_acc: 0.9994242
+
 epoch nr. 3, training on batch 14239/14239, val_acc: 0.9994242
+
 epoch nr. 4, training on batch 14239/14239, val_acc: 0.9994382
 epoch nr. 5, training on batch 14239/14239, val_acc: 0.9994382
 epoch nr. 6, training on batch 14239/14239, val_acc: 0.9994382
