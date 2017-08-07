@@ -3,7 +3,7 @@ An artifical neural network that can identify creditcard fraud. The network is t
 
 The neural network is not static. The number of hidden layers, the number of neurons and the activation functions for hidden and output neurons can be changed any time. For the hidden neurons the user can choose between sigmoid, relu and tanh, for the output neurons between sigmoid, relu, tanh and linear function as activation.
 
-A network with only one hidden layer consisting of 200 neurons, sigmoid as activation function for hidden neurons and linear as fuction for the output the network achieves after 50 epochs an accuracy of 99,96% on the validation set.
+A network with only one hidden layer consisting of 200 neurons, sigmoid as activation function for hidden neurons and linear fuction as activation for the output achieves after 50 epochs an accuracy of 99,96% on the validation set.
 
 
 The final performance measurement on the test set yields provides the following confusion matrix:
