@@ -14,8 +14,7 @@ import sys
 class Model:
     ''' Artificial neural network model for fraud prediciton'''
     
-    def __init__(self, batch_size, epochs, nodes, learning_rate, hidden_activation, output_activation, \
-                data, do_eval):
+    def __init__(self, batch_size, epochs, nodes, learning_rate, hidden_activation, output_activation, data, do_eval):
         
         self.batch_size=batch_size
         self.epochs=epochs
@@ -82,13 +81,12 @@ class Model:
         index_array=np.array([i for i in range(lower_bound, upper_bound)])
         
         if id=="training":
-            return np.array([self.X_train[i] for i in index_array]). \
-                    reshape(self.batch_size,len(self.X_train[0])),\
-            np.array([self.Y_train[i] for i in index_array]).reshape(self.batch_size,self.nodes[-1])
+            return np.array([self.X_train[i] for i in index_array]).reshape(self.batch_size,len(self.X_train[0])),\
+                    np.array([self.Y_train[i] for i in index_array]).reshape(self.batch_size,self.nodes[-1])
             
         if id=="validation":
             return np.array(self.X_val[current_index]).reshape(1,len(self.X_val[0])),\
-            np.array(self.Y_val[current_index]).reshape(1,self.nodes[-1])
+                     np.array(self.Y_val[current_index]).reshape(1,self.nodes[-1])
             
         if id=="testing":
             return np.array(self.X_test[current_index]).reshape(1,len(self.X_test[0])),\
