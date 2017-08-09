@@ -164,6 +164,7 @@ class Model:
         
         loss =tf.nn.softmax_cross_entropy_with_logits(labels=Y, logits=y_)
         optimizer=tf.train.AdamOptimizer(self.learning_rate).minimize(loss)
+        
         prediction=tf.nn.softmax(y_)
         correct_prediction= tf.equal(tf.argmax(prediction, 1), tf.argmax(Y, 1))
         accuracy=tf.cast(correct_prediction, tf.float32)
